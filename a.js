@@ -23,6 +23,7 @@ class math {
   }
 
   strictlyEquals(args) {
+    consol.log("a>>>≥");
     return args.ONE === args.TWO;
   }
 }
