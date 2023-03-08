@@ -2,7 +2,7 @@ class HelloWorld {
   getInfo() {
     return {
       id: 'helloworld',
-      name: 'It aaa!!',
+      name: '.a/sdfi8u37a',
       blocks: [
         {
           opcode: 'hello',
