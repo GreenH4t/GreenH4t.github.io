@@ -1,7 +1,7 @@
-class math {
+class matht {
   getInfo() {
     return {
-      id: 'math',
+      id: 'mathu',
       name: 'Strict Equality',
       blocks: [
         {
@@ -23,8 +23,8 @@ class math {
   }
 
   strictlyEquals(args) {
-    consol.log("a>>>≥");
+    console.log("a>>>≥");
     return args.ONE === args.TWO;
   }
 }
-Scratch.extensions.register(new math());
+Scratch.extensions.register(new matht());
