@@ -17,20 +17,6 @@ class matht {
               defaultValue: 'Second value'
             }
           }
-        },
-        {
-          opcode: 'notEq',
-          blockType: Scratch.BlockType.BOOLEAN,
-          text: '[ONE] migh≠≠≠≠≠= ≥ [TWO]',
-          arguments: {
-            ONE: {
-              type: Scratch.ArgumentType.STRING
-            },
-            TWO: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: 'Seond2345f value'
-            }
-          }
         }
       ]
     };
@@ -38,9 +24,5 @@ class matht {
 
   strictlyEquals(args) {
     return args.ONE == args.TWO;
-  },
-  notEq(args) {
-    return not args.ONE == args.TWO;
   }
-}
 Scratch.extensions.register(new matht());
