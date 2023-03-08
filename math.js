@@ -1,4 +1,4 @@
-class mathPlus {
+class math {
   getInfo() {
     return {
       id: 'strictequalityexample',
@@ -26,4 +26,4 @@ class mathPlus {
     return args.ONE === args.TWO;
   }
 }
-Scratch.extensions.register(new mathPlus());
+Scratch.extensions.register(new math());
