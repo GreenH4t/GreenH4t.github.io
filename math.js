@@ -86,16 +86,16 @@ class math {
 
   notEqual(args) {
     return not args.ONE == args.TWO;
-  },
+  }
   notGrt(args) {
     return not args.ONE > args.TWO;
-  },
+  }
   grtEq(args) {
     return args.ONE >== args.TWO;
-  },
+  }
   notLess(args) {
     return not args.ONE < args.TWO;
-  },
+  }
   lessEq(args) {
     return args.ONE <== args.TWO;
   }
