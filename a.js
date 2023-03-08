@@ -7,7 +7,7 @@ class math {
         {
           opcode: 'strictlyEquals',
           blockType: Scratch.BlockType.BOOLEAN,
-          text: '[ONE] strictly equals [TWO]',
+          text: '[ONE] ≤ [TWO]',
           arguments: {
             ONE: {
               type: Scratch.ArgumentType.STRING
