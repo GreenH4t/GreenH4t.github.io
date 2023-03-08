@@ -39,7 +39,7 @@ class HelloWorld {
     return 'UUU!';
   }
   ae(args) {
-    return args.A <== args.B;
+    return args.A === args.B;
   }
 }
 
