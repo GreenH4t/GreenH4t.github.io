@@ -1,7 +1,7 @@
 class math {
   getInfo() {
     return {
-      id: 'math',
+      id: 'mathExt',
       name: 'Math',
       blocks: [
         {
