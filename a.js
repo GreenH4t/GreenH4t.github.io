@@ -17,14 +17,30 @@ class matht {
               defaultValue: 'Second value'
             }
           }
+        },
+        {
+          opcode: 'notEq',
+          blockType: Scratch.BlockType.BOOLEAN,
+          text: '[ONE] migh≠≠≠≠≠= ≥ [TWO]',
+          arguments: {
+            ONE: {
+              type: Scratch.ArgumentType.STRING
+            },
+            TWO: {
+              type: Scratch.ArgumentType.STRING,
+              defaultValue: 'Second2345f value'
+            }
+          }
         }
       ]
     };
   }
 
   strictlyEquals(args) {
-    console.log("a>>>≥");
-    return args.ONE === args.TWO;
+    return args.ONE == args.TWO;
+  },
+  notEq(args) {
+    return not args.ONE == args.TWO;
   }
 }
 Scratch.extensions.register(new matht());
