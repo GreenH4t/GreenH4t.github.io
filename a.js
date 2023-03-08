@@ -1,7 +1,7 @@
 class math {
   getInfo() {
     return {
-      id: 'strictequalityexample',
+      id: 'math',
       name: 'Strict Equality',
       blocks: [
         {
