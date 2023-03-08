@@ -26,4 +26,4 @@ class mathPlus {
     return args.ONE === args.TWO;
   }
 }
-Scratch.extensions.register(new StrictEqualityExtension());
+Scratch.extensions.register(new mathPlus());
