@@ -14,7 +14,7 @@ class coolMath {
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 50
+              defaultValue: '50'
             }
           }
         },
@@ -28,7 +28,7 @@ class coolMath {
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 50
+              defaultValue: '50'
             }
           }
         },
@@ -42,7 +42,7 @@ class coolMath {
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 50
+              defaultValue: '50'
             }
           }
         },
@@ -56,7 +56,7 @@ class coolMath {
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 50
+              defaultValue: '50'
             }
           }
         },
@@ -70,7 +70,7 @@ class coolMath {
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 50
+              defaultValue: '50'
             }
           }
         }
