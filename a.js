@@ -28,7 +28,7 @@ class matht {
             },
             TWO: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'Second2345f value'
+              defaultValue: 'Seond2345f value'
             }
           }
         }
