@@ -7,12 +7,12 @@ class HelloWorld {
         {
           opcode: 'hello',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'Hello!'
+          text: '1'
         },
         {
           opcode: 'heo',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'Heaaa1123!!!!!!!!!'
+          text: 'a'
         },
         {
           opcode: 'ae',
@@ -39,7 +39,7 @@ class HelloWorld {
     return 'UUU!';
   }
   ae(args) {
-    return args.A === args.B;
+    return args.A <== args.B;
   }
 }
 
