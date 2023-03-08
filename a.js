@@ -31,6 +31,20 @@
                 defaultValue: 'list'
               }
             }
+          },
+          {
+            opcode: 'uhmm',
+            text: 'does [ONE] e≠ [A]',
+            blockType: Scratch.BlockType.BOOLEAN,
+            arguments: {
+              ONE: {
+                type: Scratch.ArgumentType.STRING
+              },
+              A: {
+                type: Scratch.ArgumentType.STRING,
+                defaultValue: '500'
+              }
+            }
           }
         ],
         menus: {
@@ -61,6 +75,9 @@
       const variable = util.target.lookupVariableByNameAndType(args.NAME.toString(), args.TYPE);
       // Remember: Boolean blocks need to explicitly return a boolean on their own
       return !!variable;
+    }
+    uhmm(args, util) {
+      return args.ONE == args.A;
     }
   }
   Scratch.extensions.register(new BlockUtilityExamples());
