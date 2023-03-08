@@ -1,7 +1,7 @@
-class coolMath {
+class math {
   getInfo() {
     return {
-      id: 'cool_inventionsMath',
+      id: 'coolmath',
       name: 'Math',
       blocks: [
         {
@@ -94,4 +94,4 @@ class coolMath {
     return args.ONE <== args.TWO;
   }
 }
-Scratch.extensions.register(new coolMath());
+Scratch.extensions.register(new math());
