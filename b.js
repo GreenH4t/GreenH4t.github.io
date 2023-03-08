@@ -2,12 +2,17 @@ class HelloWorld {
   getInfo() {
     return {
       id: 'helloworld',
-      name: 'It works!',
+      name: 'It aaa!!',
       blocks: [
         {
           opcode: 'hello',
           blockType: Scratch.BlockType.REPORTER,
           text: 'Hello!'
+        },
+        {
+          opcode: 'heo',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'Heaaa1123!!!!!!!!!'
         }
       ]
     };
@@ -15,6 +20,9 @@ class HelloWorld {
 
   hello() {
     return 'World!';
+  }
+  heo() {
+    return 'UUU!';
   }
 }
 
