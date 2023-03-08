@@ -1,3 +1,5 @@
+(function(Scratch) {
+  'use strict';
 class math {
   getInfo() {
     return {
@@ -95,3 +97,4 @@ class math {
   }
 }
 Scratch.extensions.register(new math());
+})(Scratch);
