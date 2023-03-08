@@ -4,6 +4,7 @@
     throw new Error('This Hello World example must run unsandboxed');
   }
 class math {
+  // comment
   getInfo() {
     return {
       id: 'coolmath',
