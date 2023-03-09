@@ -23,7 +23,7 @@ class StrictEqualityExtension {
   }
 
   strictlyEquals(args) {
-    return args.ONE >== args.TWO;
+    return args.ONE === args.TWO;
   }
 }
 Scratch.extensions.register(new StrictEqualityExtension());
